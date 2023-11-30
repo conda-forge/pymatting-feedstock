@@ -43,6 +43,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - 99991
+    - '99991'
     - tuelwer
     - thewchan
