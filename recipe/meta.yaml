@@ -1,5 +1,5 @@
 {% set name = "pymatting" %}
-{% set version = "1.1.11" %}
+{% set version = "1.1.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMatting-{{ version }}.tar.gz
-  sha256: 03a5419b79b91c898dc655b3eaea5ec6b209d1f51d4d07e819704b5d2d74c1a5
+  sha256: 639d15d4bcafb26ae21b8648c2630b81c4ecab1756fe24943a911c5ba775c4e5
 
 build:
   noarch: python
@@ -43,6 +43,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - 99991
+    - '99991'
     - tuelwer
     - thewchan
