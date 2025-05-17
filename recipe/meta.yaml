@@ -1,5 +1,5 @@
 {% set name = "pymatting" %}
-{% set version = "1.1.13" %}
+{% set version = "1.1.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2cdb7c4befacddef4d7adc2de8e34a272de639d608ae5c0a08613dfa42538101
+  sha256: 75e2ec1e346dbd564c9a2cc8229b134ec939f49008fa570025db30003d0c46fc
 
 build:
   noarch: python
