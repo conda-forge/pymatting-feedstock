@@ -3,7 +3,7 @@ About pymatting-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatting-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pymatting.github.io
+Home: https://pymatting.github.io/
 
 Package license: MIT
 
